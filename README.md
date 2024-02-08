@@ -1,9 +1,9 @@
 
-# Challenge ONE Iniciante em Programação
+# Challenge ONE
 
 Uma aplicação que criptografa e descriptografa textos.
 
-## Screenshots
+## Screenshot
 
 <img align= "center" alt="gabs-projeto" src="img/imagem_projeto_alura.jpeg">
 
