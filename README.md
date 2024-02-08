@@ -5,6 +5,7 @@ Uma aplicação que criptografa e descriptografa textos.
 
 ## Screenshots
 
+<img align= "center" alt="gabs-projeto" src="img/imagem_projeto_alura.jpeg">
 
 ## Tecnologias
 <div style="display: inline_block">
