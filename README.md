@@ -4,7 +4,7 @@
 Uma aplicação que criptografa e descriptografa textos.
 
 ## Screenshots
-<img align="center" src="https:/convert/ea246353e23820ece14439f405a84297/result.html">
+
 
 ## Tecnologias
 <div style="display: inline_block">
