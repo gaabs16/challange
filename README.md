@@ -23,7 +23,7 @@ Uma aplicação que criptografa e descriptografa textos.
 
 ## Site
 
-challange-alura.vercel.app
+https://challange-alura.vercel.app
 
 ## Tecnologias
 <div style="display: inline_block">
