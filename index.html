@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange - One | Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo__imagem" src="img/kirby.gif" alt="logo da alura">
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo__principal">
+            <div class="texto_copiar_imagem">
+                <textarea style="text-transform: lowercase;" placeholder="Digite seu texto" name="" id="texto" cols="80" rows="25"></textarea>
+                <p class="apresentacao__texto"><img src="img/Vector.png" alt="imagem de exclamação de um vetor">Apenas letras minúsculas e sem acento</p>
+            </div>
+
+            <div class="apresentacao_botoes">
+                <button onclick="criptografar()" class="botao_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="botao_descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <aside class="lateral_direita">
+            <img class="apresentacao__imagem" src="img/imagem_lateral.gif" alt="imagem do jack e finn">
+            <h2 id="mensagem">Nenhuma mensagem encontrada</h2>
+            <p class="lateral_direita_texto_pequeno">Digite um texto que você deseja criptografar ou descriptografar</p>
+            <button onclick="copiar()" class="botao_copiar_texto">Copiar Texto</button>
+        </aside>
+    </main>
+    <footer class="rodape">Desenvolvido pela Gabriella Hernandes</footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

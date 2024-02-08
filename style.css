@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* :root{
+
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 2%;
+}
+
+.logo__imagem{
+    width: 8vw;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.apresentacao{
+    padding: 0% 10%;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.apresentacao__conteudo__principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_copiar_imagem{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.botao_criptografar, .botao_descriptografar, .botao_copiar_texto{
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #d74894;
+    color: #ffff;
+    font-weight: 400;
+    font-size: clamp(1rem, 1vw, 3rem); 
+}
+
+.botao_criptografar{
+    border: none;
+}
+
+.botao_descriptografar, .botao_copiar_texto{
+    background-color: #EBB5C3;
+    border: 2px solid #CA67EB;
+    color: #000;
+}
+
+.botao_copiar_texto{
+    width: 80%;
+    gap: 20px;
+}
+
+.texto_copiar_imagem, .apresentacao_botoes{
+    padding: 10% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.lateral_direita{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 15px;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 25px 0px #1100ff;
+    -moz-box-shadow: 0px 0px 25px 0px #1100ff;
+    box-shadow: 0px 0px 25px 0px #1100ff;
+    transition: all .5s;
+    margin-bottom: 20px;
+}
+
+#mensagem, .lateral_direita_texto_pequeno{
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+}
+
+.apresentacao__texto{
+    font-size: clamp(1rem, 1.5vw, 3rem);
+}
+
+.apresentacao__imagem{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.rodape{
+    background-color: #d74894;
+    color: #ffff;
+    padding: 24px;
+    text-align: center;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 300px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .apresentacao{
+        flex-direction: column;
+    }
+
+    #texto, .botao_copiar_texto, .lateral_direita, .rodape{
+        width: auto;
+    }
+
+    .apresentacao_botoes{
+        flex-direction: column;
+    }
+
+    .botao_copiar_texto{
+        width: 90%;
+    }
+
+    .lateral_direita_texto_pequeno{
+        display: none;
+    }
+}
+
