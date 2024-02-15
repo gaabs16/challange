@@ -48,3 +48,4 @@ function copiar() {
 
 botaoCopiar.addEventListener('click', copiar);
 
+
