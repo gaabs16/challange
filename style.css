@@ -19,7 +19,7 @@ body{
 }
 
 .logo__imagem{
-    width: clamp(12rem, 50%, 3rem);
+    width: clamp(10rem, 50%, 3rem);
     border-radius: 50%;
 }
 
@@ -113,7 +113,7 @@ body{
 }
 
 ::placeholder {
-    font-size: clamp(2rem, 2rem, 2rem);
+    font-size: clamp(1.5rem, 2rem, 1.5rem);
 }
 
 .rodape{
