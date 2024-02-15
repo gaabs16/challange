@@ -103,10 +103,13 @@ body{
     border-radius: 10px;
 }
 
-textarea {
+.apresentacao__conteudo__principal .texto_copiar_imagem textarea{
     border-radius: 5px;
-    border: 2px solid #0f0e17;
+    border: none;
     resize: none;
+    font-size: 30px;
+    width: 35vw;
+    height: 60vh;
 }
 
 ::placeholder {
