@@ -19,8 +19,7 @@ body{
 }
 
 .logo__imagem{
-    width: 8vw;
-    height: 10vh;
+    width: clamp(12rem, 50%, 3rem);
     border-radius: 50%;
 }
 
@@ -49,7 +48,7 @@ body{
     background-color: #d74894;
     color: #ffff;
     font-weight: 400;
-    font-size: clamp(1rem, 1vw, 3rem); 
+    font-size: clamp(1.5rem, 1vw, 3rem); 
 }
 
 .botao_criptografar{
@@ -90,19 +89,29 @@ body{
 }
 
 #mensagem, .lateral_direita_texto_pequeno{
-    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-size: clamp(1.5rem, 1.5vw, 3rem);
     text-align: center;
     padding: 5% 0% 5% 0%;
 }
 
 .apresentacao__texto{
-    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-size: clamp(1.5rem, 1.5vw, 3rem);
 }
 
 .apresentacao__imagem{
-    width: 25vw;
-    height: 50vh;
+    width: clamp(12rem, 50%, 30rem);
     border-radius: 10px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid #0f0e17;
+    resize: none;
+}
+
+::placeholder {
+    color: #000;
+    font-size: clamp(2rem, 2rem, 2rem);
 }
 
 .rodape{
@@ -110,7 +119,7 @@ body{
     color: #ffff;
     padding: 24px;
     text-align: center;
-    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-size: clamp(1.5rem, 1.5vw, 3rem);
     font-weight: 400;
 }
 
