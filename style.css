@@ -51,6 +51,12 @@ body{
     font-size: clamp(1.5rem, 1vw, 3rem); 
 }
 
+.botao_criptografar:hover, .botao_descriptografar:hover, .botao_copiar_texto:hover{
+    background-color: #EBB5C3;
+    transition: 2s;
+    border: 2px solid #d74894;
+}
+
 .botao_criptografar{
     border: none;
 }
@@ -59,6 +65,12 @@ body{
     background-color: #EBB5C3;
     border: 2px solid #CA67EB;
     color: #000;
+}
+
+.botao_descriptografar:hover, .botao_copiar_texto:hover{
+    background-color: #d74894;
+    transition: 2s;
+    border: 2px solid #EBB5C3;
 }
 
 .botao_copiar_texto{
